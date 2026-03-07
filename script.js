@@ -46,3 +46,21 @@ document.getElementById("projects").style.display = "block";
 });
 
 });
+
+function openProject(id){
+
+document.getElementById("projects").style.display = "none";
+
+document.getElementById(id).style.display = "block";
+
+}
+
+function closeProject(){
+
+document.querySelectorAll(".project-detail").forEach(section=>{
+section.style.display = "none";
+});
+
+document.getElementById("projects").style.display = "block";
+
+}
