@@ -18,43 +18,12 @@ document
 
 });
 
-const projectTabs = document.querySelectorAll(".project-tab");
-const projectSections = document.querySelectorAll(".project-section");
-
-projectTabs.forEach(tab => {
-
-tab.addEventListener("click", () => {
-
-sections.forEach(s => s.style.display = "none");
-projectSections.forEach(p => p.style.display = "none");
-
-document
-.getElementById(tab.dataset.project)
-.style.display = "block";
-
-});
-
-});
-
-document.querySelectorAll(".back").forEach(button => {
-
-button.addEventListener("click", () => {
-
-projectSections.forEach(p => p.style.display = "none");
-document.getElementById("projects").style.display = "block";
-
-});
-
-});
-
 function openProject(id){
 
 document.getElementById("projects").style.display = "none";
 
 const project = document.getElementById(id);
 project.style.display = "block";
-
-project.scrollIntoView({behavior:"smooth"});
 
 }
 
