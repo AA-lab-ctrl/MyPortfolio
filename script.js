@@ -10,8 +10,38 @@ sections.forEach(s => s.classList.remove("active"));
 
 tab.classList.add("active");
 
-const target = document.getElementById(tab.dataset.tab);
-target.classList.add("active");
+document
+.getElementById(tab.dataset.tab)
+.classList.add("active");
+
+});
+
+});
+
+const projectTabs = document.querySelectorAll(".project-tab");
+const projectSections = document.querySelectorAll(".project-section");
+
+projectTabs.forEach(tab => {
+
+tab.addEventListener("click", () => {
+
+sections.forEach(s => s.style.display = "none");
+projectSections.forEach(p => p.style.display = "none");
+
+document
+.getElementById(tab.dataset.project)
+.style.display = "block";
+
+});
+
+});
+
+document.querySelectorAll(".back").forEach(button => {
+
+button.addEventListener("click", () => {
+
+projectSections.forEach(p => p.style.display = "none");
+document.getElementById("projects").style.display = "block";
 
 });
 
