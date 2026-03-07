@@ -136,9 +136,9 @@ padding:40px 20px;
 }
 
 .project-detail img{
-width:75%;
-border-radius:10px;
-margin:20px 0;
+width: 50%;
+aspect-ratio: 16 / 9; /* Sets a consistent shape (like a TV) */
+object-fit: cover;
 }
 
 /* FADE ANIMATION */
