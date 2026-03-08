@@ -77,6 +77,12 @@ main {
   }
 }
 
+.profile-photo {
+  width: 150px !important;
+  height: auto;
+  display: block;
+}
+
 /* TAB SECTIONS */
 .tab-section {
   display: none;
