@@ -62,7 +62,12 @@ main {
 }
 
 .home-container {
-  width: 5%;
+/* Set a specific size so it stays small */
+  width: 180px; 
+  height: 180px;
+  
+  /* This ensures the photo isn't stretched if it's not a perfect square */
+  object-fit: cover;
   display: flex;
   align-items: center;
   gap: 40px; /* Space between text and image */
