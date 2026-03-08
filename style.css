@@ -61,6 +61,12 @@ main {
   min-height: 80vh;
 }
 
+.home img {
+  width: 40%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
 /* TAB SECTIONS */
 .tab-section {
   display: none;
