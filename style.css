@@ -62,7 +62,8 @@ main {
 }
 
 .home-container {
-  width: 5%;
+  width: 150px !important; 
+  height: 150px !important;
   display: flex;
   align-items: center;
   gap: 40px; /* Space between text and image */
