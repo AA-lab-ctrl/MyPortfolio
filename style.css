@@ -139,6 +139,36 @@ main {
   line-height: 1.4;     /* Tightens up the line spacing for shorter text */
 }
 
+/* STYLE FOR THE RETURN/BACK BUTTONS */
+.project-detail button {
+  background-color: var(--main);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Space for an icon if you add one later */
+}
+
+/* HOVER EFFECT */
+.project-detail button:hover {
+  background-color: #3a5168; /* A slightly darker version of your main blue */
+  transform: translateX(-5px); /* Subtle nudge to the left to imply "going back" */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* ACTIVE STATE (When clicked) */
+.project-detail button:active {
+  transform: scale(0.98);
+}
+
 /* FOOTER */
 footer {
   background: var(--main);
