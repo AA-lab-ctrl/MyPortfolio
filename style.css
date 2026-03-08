@@ -61,7 +61,7 @@ main {
   min-height: 80vh;
 }
 
-.home img {
+#home img {
   width: 40%;
   border-radius: 10px;
   margin-bottom: 10px;
