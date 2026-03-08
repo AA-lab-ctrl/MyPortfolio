@@ -69,6 +69,13 @@ main {
   }
 }
 
+.home-container {
+  display: flex;         /* Moves items side-by-side */
+  align-items: center;    /* Keeps them level with each other */
+  justify-content: space-between; /* Pushes text to left, image to right */
+  gap: 30px;
+}
+
 .profile-photo {
   width: 40%;
   display: flex;
