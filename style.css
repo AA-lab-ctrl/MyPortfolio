@@ -70,7 +70,8 @@ main {
 }
 
 .profile-photo {
-  width: 150px !important;
+  width: 40%;
+  display: flex;
   height: auto;
   display: block;
 }
