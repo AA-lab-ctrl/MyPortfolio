@@ -132,6 +132,13 @@ main {
   object-fit: cover;
 }
 
+.project-button p {
+  color: #4f6d8a;       /* A softer grey color */
+  font-size: 15px;      /* Smaller than your base 18px body font */
+  margin-top: 5px;      /* Adds a little space below the title */
+  line-height: 1.4;     /* Tightens up the line spacing for shorter text */
+}
+
 /* FOOTER */
 footer {
   background: var(--main);
