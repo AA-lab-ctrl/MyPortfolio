@@ -116,6 +116,7 @@ main {
 #about .grid {
   display: flex;
   place-items: center;
+  height: 100vh;
   grid-template-columns: 1fr 1fr 1fr; 
   gap: 1rem;
   gap: 20px;
