@@ -258,6 +258,7 @@ footer {
   height: 50px;
   object-fit: cover;
   display: block;
+  filter: invert(100%);
 }
 
 .footer-link {
